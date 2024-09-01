@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Montserrat;
+    
+    
+   
+
+}
+.page{
+    display:grid;
+    grid-template-columns: 3fr 7fr;
+   
+}
+
+
+
+
+.sidebar{
+    background-color:rgb(245, 245, 245);
+    height:100vh;
+
+}
+.inicon{
+    margin-left:30px;
+    margin-top:40px;
+}
+.head{
+    display:inline;
+    margin-top:30px;
+}
+.pfp{
+   display:flex;
+   justify-content:center;
+   margin-top:25px;
+    
+    
+}
+.side-pfp{
+    height:120px;
+}
+.name{
+   display:flex;
+   justify-content:center;
+   font-size: x-large;
+   font-family:Montserrat;
+   font-weight:500;
+   margin-top:15px;
+  
+   margin-bottom:-4px;
+}
+.id{
+    display:flex;
+    justify-content:center;
+    color:rgb(131, 129, 129);
+    margin-bottom:30px;
+}
+.stats{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:large;
+    margin-top:20px;
+    font-family:Montserrat;
+
+
+}
+.stats-comp{
+    display:flex;
+    justify-content: space-evenly;
+    font-size:large;
+    margin-left:21px;
+    font-family:Montserrat;
+    font-size:14px;
+    color:rgb(131, 129, 129);
+}
+.sidemenu{
+    margin-left:40px;
+    display:flex;
+    justify-content:space-between;
+    column-gap:40px;
+    font-weight:500;
+    font-size:12px;
+}
+.sidemenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidemenu ul li {
+    margin-bottom: 40px;
+}
+
+
+.sidemenu ul li a {
+    text-decoration: none;
+   
+    
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    transition: background-color 0.3s;
+}
+
+.sidemenu ul li a.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+#kya{
+    margin-top:10px;
+}
+
+.current,
+.icon{
+    margin-bottom:-8px;
+    padding-right:50px;
+    margin-top:40x;
+
+
+}
+
+
+.sidemenu ul li a.current,
+.sidemenu ul li a:hover {
+
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidha{
+    width:85%;
+
+    
+}
+.sidha1{
+    width:85%;
+    
+}
+
+.sideeee{
+    margin-left:25px;
+    margin-top:30px;
+}
+
+
+.search{
+    display:inline-block;
+    width:10px;
+}
+.line{
+    margin-bottom:25px;
+    margin-top:-8px;
+    color:rgb(131, 129, 129);
+    width:270px;
+    margin-left:15px;
+}
+.main-page{
+    padding-left:50px;
+    padding-top:20px;
+    padding-right:40px;
+    
+
+}
+.search-bar{
+    margin-bottom:20px;
+    height:30px;
+    
+    
+
+}
+
+
+
+.stories {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    margin-top:10px;
+    width:920px;
+
+   
+   
+}
+
+.story {
+    margin-right: 10px;
+    margin-left:10px;
+    
+}
+
+
+.story img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(254, 254, 254);
+}
+.search-bar{
+            width: 150px;
+            height:15px;
+            margin-left:34x;
+            margin-bottom:20px;
+            font-weight:500;
+            padding: 10px;
+            padding-left: 40px;/* image space */
+            font-size: 14px;
+            background: url('/logo-pack/footer-search.svg') no-repeat 10px center; 
+            background-size: 20px 20px;
+            border: 0px solid rgb(204, 204, 204);
+            border-radius: 12px;
+            background-color: rgb(241, 241, 241);
+            
+}
+
+
+
+.feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:40%;
+    
+    row-gap: 20px;
+    column-gap:20px;
+   
+
+
+
+    
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:50px;
+
+
+}
+.top-right{
+    margin-left:400px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.same{
+    margin:12px;
+    width:50%;
+   
+   
+}
+.add{
+    width:120px;
+    height:40px;
+    border:0px;
+    color:white;
+    display:flex;
+    align-items: center;
+    
+    justify-content:space-evenly;
+
+    border-radius:6px;
+    
+    background:url("/logo-pack/Logo 9.svg") no-repeat 20px center;
+    background: linear-gradient(to right,rgb(255, 217, 0),rgb(255, 157, 0), rgb(228, 60, 23),rgb(236, 47, 79));
+}
+.heading1{
+    font-weight:500;
+    margin-bottom:10px;
+
+}
+#story-pfp{
+            position: relative;
+            width: 190px; /* Set the size of the profile image */
+            height: 100px;
+}
+.react{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.flex1{
+    display:flex;
+    flex-direction:column;
+}
+.flex2{
+    display:flex;
+    flex-direction:column;
+}
+.flex3{
+    display:flex;
+    flex-direction:column;
+}
+#pfp{
+    position:relative;
+
+
+}
+#plus{
+    position:absolute;
+    margin:35px -45px;
+    width:25px;
+    border:0px;
+}
